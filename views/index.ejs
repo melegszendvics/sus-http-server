@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <button id="rrbtn" onclick="rickroll()">Click me!</button>
+        <iframe id="rickrollframe" class="hide" width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <script>
+            function rickroll() {
+                const elem = document.getElementById("rickrollframe")
+                if (elem.classList.contains("hide")) elem.classList.remove("hide")
+                else elem.classList.add("hide")
+            }
+        </script>
+    </body>
+</html>

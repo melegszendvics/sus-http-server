@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --kek: #1001f1;
+    --rozsaszin: #f113ae;
+}
+
+body {
+    background-color: var(--kek);
+    color: #fff;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.hide {
+    display: none;
+}
+
+body button {
+    margin-top: 27%;
+    font-size: 30px;
+    padding: 2.5px;
+}
